@@ -1,0 +1,24 @@
+{
+  "name": "wordle-challenge-best-word",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.0",
+    "@babel/preset-typescript": "^7.17.12",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
